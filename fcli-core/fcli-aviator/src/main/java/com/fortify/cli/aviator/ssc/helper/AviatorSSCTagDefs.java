@@ -38,6 +38,6 @@ public final class AviatorSSCTagDefs {
     public static final TagDefinition AVIATOR_STATUS_TAG = new TagDefinition(
             "FB7B0462-2C2E-46D9-811A-DCC1F3C83051",
             "Aviator status",
-            List.of("PROCESSED_BY_AVIATOR")
+            List.of("PROCESSED_BY_AVIATOR", "PROCESSED_BY_AVIATOR_WITH_REMEDIATION")
     );
 }
