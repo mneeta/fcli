@@ -106,6 +106,8 @@ public final class AviatorSSCTagValidator {
      * Each warning is emitted as a separate progress message.
      */
     private static void emitWarnings(List<String> warnings, IAviatorLogger logger) {
+        logger.warn("logger : Printing Warnings");
+        System.out.println("SOUT : Printing Warnings");
         for (String warning : warnings) {
             logger.warn(warning);
             //logger.progress(warning);
